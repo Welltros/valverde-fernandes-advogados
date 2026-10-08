@@ -179,7 +179,7 @@ const practiceModalData = {
           • Laudos, exames ou receitas médicas (se houver pedido por incapacidade/BPC)
         </div>
 
-        <a href="https://wa.me/5511987654321?text=Ol%C3%A1%2C%20Dra.%20Mariana%20Fernandes.%20Gostaria%20de%20uma%20an%C3%A1lise%20do%20meu%20caso%20previdenci%C3%A1rio%20(INSS)." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="width: 100%;">
+        <a href="https://wa.me/5521987644666?text=Ol%C3%A1%2C%20Dra.%20Mariana%20Fernandes.%20Gostaria%20de%20uma%20an%C3%A1lise%20do%20meu%20caso%20previdenci%C3%A1rio%20(INSS)." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="width: 100%;">
           <i class="fa-brands fa-whatsapp"></i> Falar com Dra. Mariana Fernandes no WhatsApp
         </a>
       </div>
@@ -210,7 +210,7 @@ const practiceModalData = {
           • Mensagens de WhatsApp, e-mails ou provas de cobranças de metas e horários
         </div>
 
-        <a href="https://wa.me/5511987654321?text=Ol%C3%A1%2C%20Dr.%20Fernando%20Valverde.%20Gostaria%20de%20uma%20an%C3%A1lise%20da%20minha%20situa%C3%A7%C3%A3o%20trabalhista." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="width: 100%;">
+        <a href="https://wa.me/5521987644666?text=Ol%C3%A1%2C%20Dr.%20Fernando%20Valverde.%20Gostaria%20de%20uma%20an%C3%A1lise%20da%20minha%20situa%C3%A7%C3%A3o%20trabalhista." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="width: 100%;">
           <i class="fa-brands fa-whatsapp"></i> Falar com Dr. Fernando Valverde no WhatsApp
         </a>
       </div>
@@ -241,7 +241,7 @@ const practiceModalData = {
           • Contratos firmados em caso de litígio imobiliário/comercial
         </div>
 
-        <a href="https://wa.me/5511987654321?text=Ol%C3%A1%2C%20gostaria%20de%20uma%20orienta%C3%A7%C3%A3o%20sobre%20Invent%C3%A1rio%20%2F%20Direito%20Civil." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="width: 100%;">
+        <a href="https://wa.me/5521987644666?text=Ol%C3%A1%2C%20gostaria%20de%20uma%20orienta%C3%A7%C3%A3o%20sobre%20Invent%C3%A1rio%20%2F%20Direito%20Civil." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="width: 100%;">
           <i class="fa-brands fa-whatsapp"></i> Iniciar Atendimento Cível no WhatsApp
         </a>
       </div>
@@ -370,7 +370,7 @@ function calculateDiagnosticResult() {
   // Pre-filled WhatsApp message URL
   const textMessage = `Olá, Dr. Valverde e Dra. Mariana! Fiz o Diagnóstico Jurídico no site e gostaria de orientação para o meu caso:\n\n• Área: ${diagnosticState.areaName}\n• Situação: ${diagnosticState.situation}\n• Tempo decorrido: ${diagnosticState.time}\n\nPodem me orientar sobre os próximos passos?`;
   const encodedText = encodeURIComponent(textMessage);
-  btnWhatsApp.href = `https://wa.me/5511987654321?text=${encodedText}`;
+  btnWhatsApp.href = `https://wa.me/5521987644666?text=${encodedText}`;
 }
 
 function resetDiagnostic() {
@@ -572,7 +572,7 @@ function openBlogModal(id) {
       <div style="line-height: 1.65; color: #334155;">
         ${blogArticles[id].content}
         <div style="margin-top: 24px; padding-top: 16px; border-top: 1px solid #e2e8f0;">
-          <a href="https://wa.me/5511987654321?text=Ol%C3%A1%2C%20li%20o%20artigo%20no%20site%20sobre%20${encodeURIComponent(blogArticles[id].title)}%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="width: 100%;">
+          <a href="https://wa.me/5521987644666?text=Ol%C3%A1%2C%20li%20o%20artigo%20no%20site%20sobre%20${encodeURIComponent(blogArticles[id].title)}%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="width: 100%;">
             <i class="fa-brands fa-whatsapp"></i> Conversar com um Advogado sobre este Artigo
           </a>
         </div>
